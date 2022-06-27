@@ -1,0 +1,19 @@
+.listitem_contianer {
+    display: flex;
+    flex-direction:row;
+    justify-content:space-between ;
+    width: 356px;
+    height: 40px;
+    background-color: white;
+    padding: 12px;
+    border: #E5E5E5 1px solid;
+
+}
+
+.list_details {
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    
+    
+}

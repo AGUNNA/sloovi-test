@@ -1,0 +1,103 @@
+.task_container {
+    align-items: center;
+    flex-direction: column;
+    width: 380px;
+    /* height: 300px; */
+    background-color: #EDF7FC;
+    border: #EDF7FC 1px solid;
+}
+
+.task_header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F9F9FA;
+    height: 7%;
+    width: 100%;
+    border: #E5E5E5 1px solid;
+}
+
+.task_IncrementBtn {
+    border: 0px;
+    font-weight: 600;
+    font-size: large;
+}
+.task_counter {
+    margin-left: 5px;
+}
+
+.task_description {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+
+}
+
+select {
+    width: 356px;
+    height: 30px;
+    border-radius: 5px;
+    border: #E5E5E5 1px solid;
+}
+
+input {
+    width: 356px;
+    height: 30px;
+    border-radius: 5px;
+    border: #E5E5E5 1px solid;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+.task_datetime {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 360px;
+    
+}
+.task_date {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.task_time {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.task_assign {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.task_date > input {
+    width: 180px;
+    height: 30px;
+    justify-items: flex-start;
+}
+
+.task_time > input {
+    width: 150px;
+    height: 30px;
+}
+
+.taskmanager_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 85%;
+    padding: 10px;
+    
+}
+
+.task_btn {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 12px;
+    
+}
